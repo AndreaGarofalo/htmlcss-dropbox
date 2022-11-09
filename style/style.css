@@ -22,7 +22,6 @@ button {
     color: white;
     background-color: #0061ff;
     border-color: #0061ff;
-    cursor: pointer;
 }
 
 /* utility */
@@ -41,12 +40,21 @@ button {
     display: flex;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+.border {
+    border: 1px solid black;
+}
+
 /* header */
 
 header {
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 1;
 }
 
 .navbar {
@@ -79,9 +87,9 @@ main {
 /* free trial section */
 
 .jumbotron {
-    padding: 30px 0;
+    padding-top: 30px;
     background-color: #b4d0e7;
-    height: 600px;
+    height: 650px;
 }
 
 h1 {
@@ -91,11 +99,11 @@ h1 {
 }
 
 .jumbo-img {
-    height: 400px;
+    height: 450px;
 }
 
 .free-trial-card {
-    height: 320px;
+    height: 370px;
 }
 
 .free-trial-description {
@@ -111,8 +119,48 @@ h1 {
 
 .fa-arrow-down {
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
     left: 0;
     font-size: 40px;
     color: black;
+}
+
+/* plans price */
+
+.plans-price {
+    margin: 150px 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 40px 0;
+}
+
+.billing-checkboxes {
+    line-height: 30px;
+}
+
+.circles {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;    
+}
+
+.checkboxes-content {
+    margin-right: 50px;
+}
+
+.checked {
+    border: 5px solid #0061ff;
+}
+
+/* billing plans */
+
+.billing-plans {
+}
+
+.billing-cards {
+    flex-basis: calc(100% / 3);
 }

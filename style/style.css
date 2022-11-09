@@ -13,4 +13,57 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* utility */
+
+.container-h-f {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.container-b {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    height: 60px;
+    line-height: 60px;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 10px 20px;
+}
+
+.dropbox-logo {
+    height: 30px;
+}
+
+.navbar-links {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+.start-button {
+    padding: 5px 10px;
+    color: white;
+    background-color: #0061ff;
+    border-color: #0061ff;
+    cursor: pointer;
+}

@@ -94,6 +94,10 @@ h1 {
     height: 400px;
 }
 
+.free-trial-card {
+    height: 320px;
+}
+
 .free-trial-description {
     flex-basis: 30%;
     position: relative;
@@ -107,7 +111,7 @@ h1 {
 
 .fa-arrow-down {
     position: absolute;
-    bottom: 23%;
+    bottom: 15px;
     left: 0;
     font-size: 40px;
     color: black;

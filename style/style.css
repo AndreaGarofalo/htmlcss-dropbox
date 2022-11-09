@@ -85,6 +85,14 @@ section:not(.jumbotron) {
     font-weight: bold;
 }
 
+.margin-tall {
+    margin: 40px 0;
+}
+
+.width-60 {
+    width: 60%;
+}
+
 /* header */
 
 header {
@@ -118,10 +126,6 @@ header {
 .description {
     padding: 30px 20px;
     height: 100%;
-}
-
-.margin-tall {
-    margin: 40px 0;
 }
 
 .start {
@@ -261,3 +265,6 @@ main {
 .operation-card {
     flex-basis: calc(100% / 3);
 }
+
+/* dropbox downloads */
+

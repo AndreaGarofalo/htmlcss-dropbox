@@ -18,10 +18,11 @@ ul {
 }
 
 button {
-    padding: 5px 10px;
-    color: white;
+    margin: 30px 0;
+    padding: 10px 30px;
     background-color: #0061ff;
-    border-color: #0061ff;
+    color: white;
+    border: none;
 }
 
 hr {
@@ -31,6 +32,10 @@ hr {
 
 p {
     padding: 10px 0;
+}
+
+section:not(.jumbotron) {
+    margin: 150px 0;
 }
 
 /* utility */
@@ -91,6 +96,20 @@ header {
     margin: 0 20px;
 }
 
+.description {
+    padding: 30px 20px;
+    height: 100%;
+}
+
+.margin-tall {
+    margin: 40px 0;
+}
+
+.start {
+    margin: 0;
+    padding: 5px 10px;
+    border-color: #0061ff;
+}
 
 /* main */
 
@@ -125,12 +144,6 @@ h1 {
     position: relative;
 }
 
-.start-free-trial {
-    margin: 30px 0;
-    padding: 10px 20px;
-    border: none;
-}
-
 .fa-arrow-down {
     position: absolute;
     bottom: 10px;
@@ -141,9 +154,7 @@ h1 {
 
 /* plans price */
 
-.plans-price {
-    margin: 150px 0;
-}
+
 
 h2 {
     font-size: 30px;
@@ -180,30 +191,42 @@ h2 {
     flex-basis: calc(100% / 3);
 }
 
-.billing-type {
+.type {
     text-align: center;
     border-bottom: none;
 }
 
-.billing-description {
-    padding: 30px 20px;
-    height: 100%;
-}
 
 h3 {
     font-size: 25px;
     margin: 10px 0;
 }
 
-.billing-cards-section {
-    margin: 40px 0;
-}
 
-.billing-description > button {
+.description > button {
     margin: 0 auto;
     display: block;
 }
 
 .fa-check {
     color: #0061ff;
+}
+
+/* contact section */
+
+.contact-info {
+    flex-basis: 70%;
+}
+
+.contact-button {
+    flex-basis: 30%;
+    margin: 10px;
+}
+
+.contact-info >.section-margin {
+    margin-bottom: 15px;
+}
+
+.contact-us .contact-info{
+    padding-bottom: 10px;
 }

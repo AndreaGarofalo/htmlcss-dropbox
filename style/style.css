@@ -24,6 +24,15 @@ button {
     border-color: #0061ff;
 }
 
+hr {
+    width: 20%;
+    color: lightgray;
+}
+
+p {
+    padding: 10px 0;
+}
+
 /* utility */
 
 .container-large {
@@ -46,6 +55,10 @@ button {
 
 .border {
     border: 1px solid black;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /* header */
@@ -133,11 +146,11 @@ h1 {
 
 h2 {
     font-size: 30px;
-    margin: 40px 0;
 }
 
 .billing-checkboxes {
-    line-height: 30px;
+    line-height: 10px;
+    margin: 40px 0;
 }
 
 .circles {
@@ -159,8 +172,35 @@ h2 {
 /* billing plans */
 
 .billing-plans {
+    gap: 10px;
 }
 
 .billing-cards {
     flex-basis: calc(100% / 3);
+}
+
+.billing-type {
+    text-align: center;
+}
+
+.billing-description {
+    padding: 30px 20px;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.billing-cards-section {
+    margin: 40px 0;
+}
+
+.billing-description > button {
+    margin: 0 auto;
+    display: block;
+}
+
+.fa-check {
+    color: #0061ff;
 }

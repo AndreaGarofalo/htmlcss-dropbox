@@ -74,6 +74,7 @@ header {
     height: 60px;
     line-height: 60px;
     justify-content: space-between;
+    box-shadow: 0 0 5px black;
 }
 
 .logo {
@@ -172,7 +173,7 @@ h2 {
 /* billing plans */
 
 .billing-plans {
-    gap: 10px;
+    gap: 45px;
 }
 
 .billing-cards {
@@ -181,10 +182,12 @@ h2 {
 
 .billing-type {
     text-align: center;
+    border-bottom: none;
 }
 
 .billing-description {
     padding: 30px 20px;
+    height: 100%;
 }
 
 h3 {

@@ -124,8 +124,7 @@ section:not(.jumbotron) {
   
 .bg-yellow {
     background-color: #ffd830;
-}
-  
+} 
 
 /* header */
 
@@ -301,22 +300,22 @@ main {
 
 /* dropbox downloads */
 
-/* designit */
+/* sponsor section */
+
+/* side logo */
 
 .designit {
   width: 100%;
 }
 
-.sponsors {
+.sponsors-col {
   flex-basis: calc(100% / 3);
 }
-.info-sponsors {
-  flex-basis: calc(100% / 3);
-}
+
 .sponsors-card {
   flex-basis: 50%;
-  height: 280px;
-  width: 280px;
+  height: 280.5px;
+  width: 280.5px;
   justify-content: center;
   align-items: center;
 }
@@ -330,3 +329,20 @@ main {
   border: 10px solid #d1e9cd;
 }
 
+/* central description */
+
+.info-sponsors {
+  flex-basis: calc(100% / 3);
+  
+  padding: 40px 40px 0 40px;
+  background-color: #f5f5f5;
+}
+
+.central-logo {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+section.sponsors {
+    margin: 0;
+}

@@ -17,15 +17,23 @@ ul {
     list-style-type: none;
 }
 
+button {
+    padding: 5px 10px;
+    color: white;
+    background-color: #0061ff;
+    border-color: #0061ff;
+    cursor: pointer;
+}
+
 /* utility */
 
-.container-h-f {
-    width: 1400px;
+.container-large {
+    width: 1200px;
     margin: 0 auto;
 }
 
-.container-b {
-    width: 1200px;
+.container-small {
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -38,6 +46,7 @@ ul {
 header {
     position: fixed;
     width: 100%;
+    background-color: white;
 }
 
 .navbar {
@@ -60,10 +69,46 @@ header {
     margin: 0 20px;
 }
 
-.start-button {
-    padding: 5px 10px;
-    color: white;
-    background-color: #0061ff;
-    border-color: #0061ff;
-    cursor: pointer;
+
+/* main */
+
+main {
+    padding-top: 60px;
+}
+
+/* free trial section */
+
+.jumbotron {
+    padding: 30px 0;
+    background-color: #b4d0e7;
+    height: 600px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.jumbo-img {
+    height: 400px;
+}
+
+.free-trial-description {
+    flex-basis: 30%;
+    position: relative;
+}
+
+.start-free-trial {
+    margin: 30px 0;
+    padding: 10px 20px;
+    border: none;
+}
+
+.fa-arrow-down {
+    position: absolute;
+    bottom: 23%;
+    left: 0;
+    font-size: 40px;
+    color: black;
 }

@@ -230,3 +230,26 @@ h3 {
 .contact-us .contact-info{
     padding-bottom: 10px;
 }
+
+/* find a partner section */
+
+.partner-img-section {
+    flex-basis: 60%;
+}
+
+.partner-info {
+    flex-basis: 40%;
+    padding: 50px 30px 20px 50px;
+
+}
+
+.partner-img {
+    width: 100%;
+}
+
+.find-partner {
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    border: 2px solid black;
+}

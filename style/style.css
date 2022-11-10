@@ -130,6 +130,10 @@ hr.small {
   color: #61082b;
 }
 
+.color-lightgray {
+  color: #999999;
+}
+
 /* header */
 
 header {
@@ -315,10 +319,6 @@ main {
 
 /* side logo */
 
-.designit {
-  width: 100%;
-}
-
 .sponsors-col {
   flex-basis: calc(100% / 3);
 }
@@ -405,4 +405,39 @@ section.download {
 
 .question-row:hover .answer {
   display: block;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.utility-links {
+  padding-top: 40px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.utility-col{
+  flex-basis: 20%;
+}
+
+.utility-links li{
+  padding: 10px 0;
+}
+
+.go-to {
+  color: white;
+  text-decoration: none;
+}
+
+.devider {
+  margin: 80px 0 35px 0;
+  width: 10%;
+}
+
+.fa-earth-americas {
+  padding-right: 5px;
 }

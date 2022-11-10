@@ -329,15 +329,18 @@ main {
   width: 280.5px;
   justify-content: center;
   align-items: center;
+  border: 10px solid transparent;
 }
+
+.sponsors-card:hover {
+  border: 10px solid rgba(226, 226, 226, 0.462) ;
+
+}
+
 
 .sponsors-logo {
   width: 50%;
   filter: invert(1);
-}
-
-.designit {
-  border: 10px solid #d1e9cd;
 }
 
 /* central description */

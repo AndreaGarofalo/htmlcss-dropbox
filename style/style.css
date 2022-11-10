@@ -29,7 +29,7 @@ h3 {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   display: block;
 }
 
@@ -95,51 +95,62 @@ section:not(.jumbotron) {
 }
 
 .bg-light-green {
-    background-color: #a2d39b;
+  background-color: #a2d39b;
 }
   
 .bg-purple {
-    background-color: #61082b;
+  background-color: #61082b;
 }
   
 .bg-blue {
-    background-color: #0093ce;
+  background-color: #0093ce;
 }
   
-  .bg-orange {
-    background-color: #ff1c1c;
+.bg-orange {
+  background-color: #ff1c1c;
 }
   
 .bg-red {
-    background-color: #d5001f;
+  background-color: #d5001f;
 }
   
-  .bg-light-blue {
-    background-color: #b4d0e7;
+.bg-light-blue {
+  background-color: #b4d0e7;
 }
   
 .bg-dark-blue {
-    background-color: #0d2481;
+  background-color: #0d2481;
 }
   
 .bg-yellow {
-    background-color: #ffd830;
+  background-color: #ffd830;
 } 
+
+.color-purple {
+  color: #61082b;
+}
 
 /* header */
 
 header {
   position: fixed;
-  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: white;
   z-index: 1;
 }
 
 .navbar {
   height: 60px;
-  line-height: 60px;
+  align-items: center;
   justify-content: space-between;
   box-shadow: 0 0 5px black;
+}
+
+.left-navbar {
+  align-items: center;
+
 }
 
 .logo {
@@ -339,10 +350,38 @@ main {
 }
 
 .central-logo {
-    width: 50%;
-    padding-bottom: 50px;
+  width: 50%;
+  padding-bottom: 50px;
 }
 
 section.sponsors {
-    margin: 0;
+  margin: 0;
+}
+
+/* download Dropbox */
+
+section.download {
+  background-color: #b4d0e7;
+  margin-top: 0;
+  height: 300px;
+}
+
+.download > div {
+  height: 100%;
+  align-items: center;
+}
+
+.description-left {
+  flex-basis: 50%;
+}
+
+.right-download-button {
+  flex-basis: 50%;
+  justify-content: center;
+}
+
+.start-trial {
+  margin-top: 0;
+  background-color: white;
+  color: black;
 }

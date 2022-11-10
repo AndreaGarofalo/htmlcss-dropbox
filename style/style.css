@@ -45,11 +45,6 @@ button {
   border: none;
 }
 
-hr {
-  width: 20%;
-  color: lightgray;
-}
-
 p {
   padding: 10px 0;
 }
@@ -84,6 +79,11 @@ section:not(.jumbotron) {
 
 .bold {
   font-weight: bold;
+}
+
+hr.small {
+  width: 20%;
+  color: lightgray;
 }
 
 .margin-tall {
@@ -384,4 +384,25 @@ section.download {
   margin-top: 0;
   background-color: white;
   color: black;
+}
+
+/* frequently asked */
+
+.question-row {
+  align-items: center;
+  padding: 20px 0;
+}
+
+.question {
+  justify-content: space-between;
+  
+}
+
+.answer {
+  display: none;
+  color: red;
+}
+
+.question-row:hover .answer {
+  display: block;
 }

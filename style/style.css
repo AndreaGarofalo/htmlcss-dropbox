@@ -355,7 +355,7 @@ ul.list > li > :first-child {
 /* central description */
 
 .info-sponsors {
-  flex-basis: calc(100% / 3);
+  flex-basis: 561px;
   height: 561px;
   
   padding: 40px 40px 0 40px;

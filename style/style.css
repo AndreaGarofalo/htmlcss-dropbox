@@ -264,6 +264,15 @@ main {
   color: #0061ff;
 }
 
+ul.list li {
+  display: flex;
+  margin: 10px 0;
+}
+
+ul.list > li > :first-child {
+  padding: 5px;
+}
+
 /* contact section */
 
 .contact-info {
